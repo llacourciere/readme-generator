@@ -8,24 +8,19 @@ const mdGen = (data) => {
   output = `
 # ${data.title} ${renderLC(data.license)}
 
-<a name="desc"></a>
-## 1. Description: 
+<a name="desc"></a>## 1. Description: 
 ${data.description}
 
-<a name="install"></a>
-### 2. Installation: 
+<a name="install"></a>## 2. Installation: 
 ${data.installation}
 
-<a name="usage"></a>
-### 3. Usage: 
+<a name="usage"></a>## 3. Usage: 
 ${data.usage}
 
-<a name="contrib"></a>
-### 4. Contributing: 
+<a name="contrib"></a>## 4. Contributing: 
 ${data.contributing}
 
-<a name="test"></a>
-### 5. Tests: 
+<a name="test"></a>## 5. Tests: 
 ${data.tests}
 
 <a name="ques"></a>
@@ -39,9 +34,6 @@ ${data.tests}
   4. [ Contributing ] (#contrib)
   5. [ Tests ] (#test)
   6. [ Questions ] (#ques)
-
-
-
 
 `;
 
