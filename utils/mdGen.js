@@ -8,15 +8,24 @@ const mdGen = (data) => {
   output = `
 # ${data.title} ${renderLC(data.license)}
 
-## Description: ${data.description}
+## Description: 
+${data.description}
 
-## Installation: ${data.installation}
+### Installation: 
+${data.installation}
 
-## Usage: ${data.usage}
+### Usage: 
+${data.usage}
 
-## Contributing: ${data.contributors}
+### Contributing: 
+${data.contributing}
 
-## Tests: ${data.tests}
+### Tests: 
+${data.tests}
+
+#### Questions: 
+ <p>If you have any questions email me: ${data.email}</p>
+  <a href="https://www.github.com/${data.github}/" target="_blank">Github</a>
 
 `;
 
