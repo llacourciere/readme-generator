@@ -6,14 +6,21 @@ const mdGen = (data) => {
   let output = '';
 
   output = `
-# ${data.title}
+# ${data.title} ${renderLC(data.license)}
 
-## Description ${data.description}
-${renderLC(data.license)}
+## Description: ${data.description}
+
+## Installation: ${data.installation}
+
+## Usage: ${data.usage}
+
+## Contributing: ${data.contributors}
+
+## Tests: ${data.tests}
 
 `;
 
-  writeFile('./README.md',output, ()=>console.log('READM.md was created or modified!!!'));
+  writeFile('./README.md',output, ()=>console.log('README.md was created or modified!!!'));
 }
 
 module.exports = mdGen;
