@@ -8,28 +8,44 @@ const mdGen = (data) => {
   output = `
 # ${data.title} ${renderLC(data.license)}
 
-## Description: 
+<a name="desc"></a>
+## 1. Description: 
 ${data.description}
 
-### Installation: 
+<a name="install"></a>
+### 2. Installation: 
 ${data.installation}
 
-### Usage: 
+<a name="usage"></a>
+### 3. Usage: 
 ${data.usage}
 
-### Contributing: 
+<a name="contrib"></a>
+### 4. Contributing: 
 ${data.contributing}
 
-### Tests: 
+<a name="test"></a>
+### 5. Tests: 
 ${data.tests}
 
-#### Questions: 
+<a name="ques"></a>
+#### 6. Questions: 
  <p>If you have any questions email me: ${data.email}</p>
   <a href="https://www.github.com/${data.github}/" target="_blank">Github</a>
 
+  1. [ Description ](#desc)
+  2. [ Installation ] (#install)
+  3. [ Usage ](#usage)
+  4. [ Contributing ] (#contrib)
+  5. [ Tests ] (#test)
+  6. [ Questions ] (#ques)
+
+
+
+
 `;
 
-  writeFile('./README.md',output, ()=>console.log('README.md was created or modified!!!'));
+  writeFile('./README.md', output, () => console.log('README.md was created or modified!!!'));
 }
 
 module.exports = mdGen;
