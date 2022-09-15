@@ -13,10 +13,10 @@
 
 ## Description
 This project was made using node.js It uses inquirer to promt the user through questions about a project so that they can complete a comprehensive readme using simple questions
+file:///Users/laurenlacourciere/Downloads/Untitled_%20Sep%2014,%202022%206_08%20PM.webm
 
 ## Installation
 Node
-
 
 ## Usage 
 This is meant to generate readme files so that it is easier to create a readme for your projects
