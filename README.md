@@ -1,5 +1,5 @@
 
-# readme generator ![ISC](https://img.shields.io/badge/LICENSE-ISC-blueviolet)
+# README Generator ![Apache](https://img.shields.io/badge/LICENSE-Apache-blueviolet)
 
 ## Table of Contents
 - [Description](#description)
@@ -12,23 +12,23 @@
 
 
 ## Description
-this is a readme generator using command line quesitons </div>
+This project was made using node.js It uses inquirer to promt the user through questions about a project so that they can complete a comprehensive readme using simple questions
 
 ## Installation
-node and inquirer
+Node
 
 
 ## Usage 
-this generates high quality readmes using prompts from the command line about your projects
+This is meant to generate readme files so that it is easier to create a readme for your projects
 
 ## License
- This application is covered by the ISC license.
+ This application is covered by the Apache license.
 
 ## Contributing
-be nice
+Please be nice
 
 ## Tests 
-all sorts
+None
 
 ## Questions
  <p>If you have any questions email me: lacourcierela@gmail.com</p>
