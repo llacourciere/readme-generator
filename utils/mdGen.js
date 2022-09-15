@@ -8,38 +8,44 @@ const mdGen = (data) => {
   output = `
 # ${data.title} ${renderLC(data.license)}
 
-<div id='id-section1'/>
-<a name="desc"></a>
-## 1. Description: 
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+
+## Description
 ${data.description} </div>
 
 <a name="install"></a>
-## 2. Installation: 
+## Installation
 ${data.installation}
 
-<a name="usage"></a>
-## 3. Usage: 
+
+## Usage 
 ${data.usage}
 
+## License
+ This application is covered by the ${data.license} license.
+
 <a name="contrib"></a>
-## 4. Contributing: 
+## Contributing
 ${data.contributing}
 
 <a name="test"></a>
-## 5. Tests: 
+## Tests 
 ${data.tests}
 
 <a name="ques"></a>
-## 6. Questions: 
+## Questions
  <p>If you have any questions email me: ${data.email}</p>
-  <a href="https://www.github.com/${data.github}/" target="_blank">Github</a>
+ <a href="https://www.github.com/${data.github}/" target="_blank">Github</a>
 
-  1. [Description](#desc)
-  2. [Installation] (#install)
-  3. [Usage](#usage)
-  4. [Contributing] (#contrib)
-  5. [Tests] (#test)
-  6. [Questions] (#ques)
+
 
 `;
 
