@@ -21,7 +21,6 @@ const mdGen = (data) => {
 ## Description
 ${data.description} </div>
 
-<a name="install"></a>
 ## Installation
 ${data.installation}
 
@@ -32,15 +31,12 @@ ${data.usage}
 ## License
  This application is covered by the ${data.license} license.
 
-<a name="contrib"></a>
 ## Contributing
 ${data.contributing}
 
-<a name="test"></a>
 ## Tests 
 ${data.tests}
 
-<a name="ques"></a>
 ## Questions
  <p>If you have any questions email me: ${data.email}</p>
  <a href="https://www.github.com/${data.github}/" target="_blank">Github</a>
