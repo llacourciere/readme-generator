@@ -19,7 +19,7 @@ const mdGen = (data) => {
 
 
 ## Description
-${data.description} </div>
+${data.description}
 
 ## Installation
 ${data.installation}

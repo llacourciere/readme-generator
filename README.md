@@ -12,30 +12,26 @@
 
 
 ## Description
-fjdklsfjslldsfjsdklHe couldn't remember exactly where he had read it, but he was sure that he had. The fact that she didn't believe him was quite frustrating as he began to search the Internet to find the article. It wasn't as if it was something that seemed impossible. Yet she insisted on always seeing the source whenever he stated a fact. </div>
+this is a readme generator using command line quesitons </div>
 
-<a name="install"></a>
 ## Installation
-He couldn't remember exactly where he had read it, but he was sure that he had. The fact that she didn't believe him was quite frustrating as he began to search the Internet to find the article. It wasn't as if it was something that seemed impossible. Yet she insisted on always seeing the source whenever he stated a fact.
+node and inquirer
 
 
 ## Usage 
-He couldn't remember exactly where he had read it, but he was sure that he had. The fact that she didn't believe him was quite frustrating as he began to search the Internet to find the article. It wasn't as if it was something that seemed impossible. Yet she insisted on always seeing the source whenever he stated a fact.
+this generates high quality readmes using prompts from the command line about your projects
 
 ## License
  This application is covered by the ISC license.
 
-<a name="contrib"></a>
 ## Contributing
-He couldn't remember exactly where he had read it, but he was sure that he had. The fact that she didn't believe him was quite frustrating as he began to search the Internet to find the article. It wasn't as if it was something that seemed impossible. Yet she insisted on always seeing the source whenever he stated a fact.
+be nice
 
-<a name="test"></a>
 ## Tests 
-He couldn't remember exactly where he had read it, but he was sure that he had. The fact that she didn't believe him was quite frustrating as he began to search the Internet to find the article. It wasn't as if it was something that seemed impossible. Yet she insisted on always seeing the source whenever he stated a fact.
+all sorts
 
-<a name="ques"></a>
 ## Questions
- <p>If you have any questions email me: lacourciere@funtown.com</p>
+ <p>If you have any questions email me: lacourcierela@gmail.com</p>
  <a href="https://www.github.com/llacourciere/" target="_blank">Github</a>
 
 
