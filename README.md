@@ -14,6 +14,10 @@
 ## Description
 This project was made using node.js It uses inquirer to promt the user through questions about a project so that they can complete a comprehensive readme using simple questions
 
+
+https://user-images.githubusercontent.com/108777796/190291485-e62ab89c-6931-42ab-a0e7-8ba1bae26f98.mp4
+
+
 ## Installation
 Node
 
